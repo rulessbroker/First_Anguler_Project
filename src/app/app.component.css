@@ -12,3 +12,13 @@ h1{
     flex-direction: column;
     align-items: center;
 }
+
+span{
+    color: red;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

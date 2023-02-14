@@ -3,6 +3,7 @@
   <img src={{imgUrl}} (click) = "onClick($event)" alt="BridgeLabz_Logo"/><br>
 </div>
 
-<div>
-  <input [(ngModel)]="userName"><br>
+<div class="input">
+ <label for="userName">User Name:  <input (input)="onInput($event)" [(ngModel)]="userName"> </label><br>
+  <span class="error-output">{{this.nameError}}</span>
 </div>
