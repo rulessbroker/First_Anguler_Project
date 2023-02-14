@@ -8,7 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Hello World';
   imgUrl = '../assets/BridgeLabz.jpg';
+  blUrl = "https://www.bridgelabz.com/";
+
   massage : String = "Hello From Bridgelabz";
+  
+  onClick($event: any){
+    console.log("logo is clicked", $event);
+    window.open(this.blUrl, "_blank")
+  }
   
   }
 
